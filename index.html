@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Bhaskara</title>
+    <link rel="shortcut icon" href="assets/images/calculator.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="top">
+            <div class="title">
+                <img src="assets/images/calculator.svg" alt="calculator">
+                <h2>Bhaskara</h2>
+            </div>
+            <p>Insira os valores de A, B e C para calcular o delta e suas raízes</p>
+        </div>
+        <div class="form">
+            <div class="inputs">
+                <p>A:</p>
+                <input type="number" placeholder="Valor de A" required>
+            </div>
+            <div class="inputs">
+                <p>B:</p>
+                <input type="number" placeholder="Valor de B" required>
+            </div>
+            <div class="inputs">
+                <p>C:</p>
+                <input type="number" placeholder="Valor de C" required>
+            </div>
+            <button id="calc">Calcular</button>
+        </div>
+        <div class="results">
+            <div class="delta">
+                <span id="delta">0</span>
+                <span>Δ Delta</span>
+            </div>
+            <div class="raiz">
+                <div class="x">
+                    <span id="raiz1">0</span>
+                    <span>x₁</span>
+                </div>
+                <div class="x">
+                    <span id="raiz2">0</span>
+                    <span>x₂</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
